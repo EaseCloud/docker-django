@@ -1,18 +1,22 @@
 FROM python:latest
 MAINTAINER huangwc@easecloud.cn
 
-ENV PYTHONUNBUFFERED 1
+WORKDIR /var/app
 
-RUN apt-get update && apt-get upgrade -y
+ENV PROJECT=app
 
-RUN pip install --upgrade pip
-RUN pip install gunicorn django greenlet eventlet gevent 
-RUN mkdir -p /var/www/ && cd /var/www
-RUN django-admin startproject pytest
-RUN cd pytest
+COPY ./docker-entrypoint.sh ./
+
+RUN apt-get update && apt-get upgrade -y && apt-get autoremove -y
+
+RUN pip install --upgrade pip && pip install gunicorn django greenlet eventlet 
+RUN chmod +x docker-entrypoint.sh
+
+VOLUME ["/var/app", "/var/app/media"]
 
 EXPOSE 8000
 
-CMD ["gunicorn", "--chdir /var/www/pytest", "-b 0.0.0.0:8000", "-w 4", "-k eventlet", "pytest.wsgi"]
+ENTRYPOINT ["./docker-entrypoint.sh"]
 
+#CMD ["gunicorn", "-b0.0.0.0:8000", "-w4", "-keventlet", "${PROJECT}.wsgi"]
 
