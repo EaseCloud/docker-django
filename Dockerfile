@@ -11,7 +11,7 @@ RUN pip install --upgrade pip && pip install gunicorn django greenlet eventlet
 
 COPY ./startup.sh /var
 
-RUN chmod +x /var/startup.sh
+RUN chmod +x /var/startup.sh 
 
 VOLUME ["/var/app", "/var/app/media"]
 
