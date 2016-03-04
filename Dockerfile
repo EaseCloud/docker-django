@@ -7,11 +7,11 @@ ENV PROJECT=app
 
 RUN apt-get update && apt-get upgrade -y && apt-get autoremove -y
 
-RUN pip install --upgrade pip && pip install gunicorn django greenlet eventlet 
-
 COPY ./startup.sh /var
+ADD ./build.sh /var
 
-RUN chmod +x /var/startup.sh 
+RUN chmod +x /var/startup.sh && chmod +x /var/build.sh
+RUN /var/build.sh
 
 VOLUME ["/var/app", "/var/app/media"]
 
