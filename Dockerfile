@@ -9,6 +9,7 @@ RUN apt-get update && apt-get upgrade -y && apt-get autoremove -y
 
 COPY ./startup.sh /var
 ADD ./build.sh /var
+ADD ./requirements.txt /var
 
 RUN chmod +x /var/startup.sh && chmod +x /var/build.sh
 RUN /var/build.sh

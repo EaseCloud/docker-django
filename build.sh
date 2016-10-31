@@ -11,4 +11,4 @@ apt-get install -y \
 wget https://bootstrap.pypa.io/get-pip.py
 python3.5 get-pip.py
 
-pip3.5 install -r requirements.txt
+pip3.5 install -r /var/requirements.txt
