@@ -16,6 +16,7 @@ django-filter
 django-cors-headers
 djangorestframework
 djangorestframework-yaml
+djangorestframework-filters
 django-fullclean
 django-grappelli
 
