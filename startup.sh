@@ -2,7 +2,7 @@
 
 set -e
 
-echo $PROJECT
+#echo $PROJECT
 
 #if [ ! -e ./manage.py ]; then
 #    django-admin startproject $PROJECT .
@@ -12,4 +12,4 @@ echo $PROJECT
 #    pip install -r requirements.txt
 #fi
 
-gunicorn -b 0.0.0.0:8000 -w 4 -k eventlet --reload $PROJECT.wsgi
+gunicorn -b 0.0.0.0:8000 -w $WORKERS -k eventlet --reload $PROJECT.wsgi

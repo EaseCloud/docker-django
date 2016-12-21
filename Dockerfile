@@ -4,6 +4,7 @@ MAINTAINER huangwc@easecloud.cn
 WORKDIR /var/app
 
 ENV PROJECT=app
+ENV WORKERS=1
 
 RUN apt-get update && apt-get upgrade -y && apt-get autoremove -y
 
