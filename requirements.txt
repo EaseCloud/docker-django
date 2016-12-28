@@ -12,6 +12,7 @@ django-extra-fields
 django-filter
 django-fullclean
 django-grappelli
+django-ipware
 eventlet
 greenlet
 gunicorn
