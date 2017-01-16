@@ -13,6 +13,7 @@ django-filter
 django-fullclean
 django-grappelli
 django-ipware
+django-uuslug
 eventlet
 greenlet
 gunicorn
