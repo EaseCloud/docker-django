@@ -9,6 +9,6 @@ apt-get install -y \
     {gcc,g++}-arm-linux-gnueabi{,hf}
 
 wget https://bootstrap.pypa.io/get-pip.py
-python3.5 get-pip.py
+python get-pip.py
 
-pip3.5 install -r /var/requirements.txt
+pip install -r /var/requirements.txt
