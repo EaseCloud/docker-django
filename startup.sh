@@ -12,4 +12,4 @@ set -e
 #    pip install -r requirements.txt
 #fi
 
-gunicorn -b 0.0.0.0:8000 -w $WORKERS -k eventlet --reload $PROJECT.wsgi
+gunicorn -b 0.0.0.0:8000 -w $WORKERS --reload $PROJECT.wsgi
