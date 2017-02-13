@@ -13,7 +13,7 @@ COPY ./cron.sh /var
 ADD ./build.sh /var
 ADD ./requirements.txt /var
 
-RUN chmod +x /var/startup.sh && chmod +x /var/build.sh && chomod +x /var/cron.sh
+RUN chmod +x /var/startup.sh && chmod +x /var/build.sh && chmod +x /var/cron.sh
 RUN /var/build.sh
 
 VOLUME ["/var/app", "/var/app/media"]
