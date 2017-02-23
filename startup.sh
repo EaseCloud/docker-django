@@ -12,5 +12,5 @@ set -e
 #    pip install -r requirements.txt
 #fi
 
-#gunicorn -b 0.0.0.0:8000 -w $WORKERS --reload $PROJECT.wsgi
-python manage.py runserver 0.0.0.0:8000
+gunicorn -b 0.0.0.0:8000 -w $WORKERS --reload $PROJECT.wsgi
+#python manage.py runserver 0.0.0.0:8000
