@@ -26,7 +26,7 @@ pyaml
 pyasn1
 pyasn1-modules
 pycrypto
-cryptography
+#cryptography
 pygments
 pyopenssl
 python-dateutil
