@@ -22,6 +22,7 @@ httpie
 jpush
 markdown
 mysqlclient
+paypalrestsdk
 pillow
 pyaml
 pyasn1
