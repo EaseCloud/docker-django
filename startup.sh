@@ -12,4 +12,6 @@ set -e
 #    pip install -r requirements.txt
 #fi
 
+service cron start
+
 gunicorn -b 0.0.0.0:8000 -w $WORKERS -k eventlet --reload $PROJECT.wsgi
