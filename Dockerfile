@@ -5,7 +5,8 @@ WORKDIR /var/app
 
 ENV PROJECT=app
 ENV WORKERS=1
-ENV WORKER_CLASS=sync  # or eventlet/greenlet
+ENV WORKER_CLASS=sync
+# or eventlet/greenlet
 
 RUN apt-get update && apt-get upgrade -y && apt-get autoremove -y
 
