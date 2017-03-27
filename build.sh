@@ -8,8 +8,7 @@ apt-get install -y \
     cron \
     openssl \
     vorbis-tools lame flac mpg123 libav-tools faad \
-    python3-tk \
-    python3-dev btiff5-dev libtiff5-dev libffi-dev \
+    python3-tk python3-dev libtiff5-dev libffi-dev \
     libxml2-dev libxslt1-dev libssl-dev zlib1g-dev \
     liblcms2-dev libwebp-dev tcl8.6-dev tk8.6-dev 
 
