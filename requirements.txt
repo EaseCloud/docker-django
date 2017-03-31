@@ -21,6 +21,7 @@ greenlet
 gunicorn
 httpie
 jpush
+mad
 markdown
 mysqlclient
 paypalrestsdk
