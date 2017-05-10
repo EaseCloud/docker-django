@@ -39,3 +39,4 @@ scrapy-djangoitem
 sphinx
 wechatpy
 xlscript
+xlrd
