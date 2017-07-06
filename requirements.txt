@@ -16,6 +16,7 @@ django-uuslug
 djangorestframework
 djangorestframework-yaml
 djangorestframework-filters
+drf_queryfields
 eventlet
 greenlet
 gunicorn
