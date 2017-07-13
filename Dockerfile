@@ -1,4 +1,4 @@
-FROM python:latest
+FROM pypy:latest
 MAINTAINER huangwc@easecloud.cn
 
 WORKDIR /var/app

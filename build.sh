@@ -17,8 +17,8 @@ apt-get install -y \
 ln /usr/bin/avconv /usr/bin/ffmpeg
 
 wget https://bootstrap.pypa.io/get-pip.py
-python get-pip.py
+pypy3 get-pip.py
 
-pip install -r /var/requirements.txt
+pypy3 -m pip install -r /var/requirements.txt
 
 echo "*/1 * * * * root /var/cron.sh" >> /etc/crontab
