@@ -18,6 +18,7 @@ djangorestframework-yaml
 djangorestframework-filters
 djangorestframework-queryfields
 eventlet
+gevent
 greenlet
 gunicorn
 httpie
