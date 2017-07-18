@@ -27,7 +27,7 @@ mutagen
 markdown
 mysqlclient
 paypalrestsdk
-pillow
+pillow==4.1.1
 pyaml
 pyasn1
 pyasn1-modules
