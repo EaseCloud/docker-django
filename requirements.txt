@@ -11,7 +11,7 @@ django-filter
 django-fullclean
 django-grappelli
 django-ipware
-django-paypal
+#django-paypal
 django-uuslug
 djangorestframework
 djangorestframework-yaml
@@ -26,8 +26,8 @@ jpush
 mutagen
 markdown
 mysqlclient
-paypalrestsdk
-pillow==4.1.1
+#paypalrestsdk
+pillow
 pyaml
 pyasn1
 pyasn1-modules
@@ -35,6 +35,7 @@ pycrypto
 pygments
 pyopenssl
 python-dateutil
+redis
 requests
 scrapy
 scrapy-djangoitem
