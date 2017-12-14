@@ -12,11 +12,12 @@ django-fullclean
 django-grappelli
 django-ipware
 #django-paypal
+django-rest-swagger
 django-uuslug
 djangorestframework
-djangorestframework-yaml
 djangorestframework-filters
 djangorestframework-queryfields
+djangorestframework-yaml
 eventlet
 gevent
 greenlet
