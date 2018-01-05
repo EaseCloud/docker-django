@@ -32,7 +32,7 @@ pillow
 pyaml
 pyasn1
 pyasn1-modules
-pycrypto
+pycryptodome
 pygments
 pyopenssl
 python-dateutil
