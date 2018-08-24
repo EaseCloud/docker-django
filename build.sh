@@ -10,7 +10,8 @@ apt-get install -y \
     vorbis-tools lame flac mpg123 libav-tools faad \
     python3-tk python3-dev libtiff5-dev libffi-dev \
     libxml2-dev libxslt1-dev libssl-dev zlib1g-dev \
-    liblcms2-dev libwebp-dev tcl8.6-dev tk8.6-dev 
+    liblcms2-dev libwebp-dev tcl8.6-dev tk8.6-dev \
+    unixodbc unixodbc-dev
 
 # compat avconv instead of ffmpeg
 # link: https://wiki.debian.org/ffmpeg
