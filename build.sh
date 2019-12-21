@@ -11,7 +11,7 @@ apt-get install -y \
     python3-tk python3-dev libtiff5-dev libffi-dev \
     libxml2-dev libxslt1-dev libssl-dev zlib1g-dev \
     liblcms2-dev libwebp-dev tcl8.6-dev tk8.6-dev \
-    unixodbc unixodbc-dev
+    unixodbc unixodbc-dev wkhtmltopdf
 
 # compat avconv instead of ffmpeg
 # link: https://wiki.debian.org/ffmpeg
