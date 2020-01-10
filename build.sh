@@ -6,7 +6,7 @@ apt-get update
 
 apt-get install -y \
     cron \
-    openssl \
+    openssl vim \
     vorbis-tools lame flac mpg123 libav-tools faad \
     python3-tk python3-dev libtiff5-dev libffi-dev \
     libxml2-dev libxslt1-dev libssl-dev zlib1g-dev \
