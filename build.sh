@@ -22,4 +22,4 @@ python get-pip.py
 
 pip install -r /var/requirements.txt
 
-echo "*/1 * * * * root /var/cron.sh" >> /etc/crontab
+echo "*/1 * * * * root PYTHONIOENCODING=UTF-8 /var/cron.sh" >> /etc/crontab
