@@ -13,6 +13,7 @@ RUN apt-get update && apt-get upgrade -y && apt-get autoremove -y
 COPY ./startup.sh /var
 COPY ./cron.sh /var
 COPY ./build.sh /var
+COPY ./apt-requirements.txt /var
 COPY ./requirements.txt /var
 
 RUN chmod +x /var/startup.sh && chmod +x /var/build.sh && chmod +x /var/cron.sh
