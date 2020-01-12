@@ -4,7 +4,7 @@ apt-get update
 
 # TODO: faac missing
 
-apt-get install -y `cat apt-requirements.txt`
+apt-get install -y `cat /var/apt-requirements.txt`
 
 # compat avconv instead of ffmpeg
 # link: https://wiki.debian.org/ffmpeg
