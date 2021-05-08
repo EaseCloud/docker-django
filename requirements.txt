@@ -31,7 +31,7 @@ djangorestframework-queryfields==1.0.0
 djangorestframework-yaml==1.0.3
 docutils==0.14
 enum-compat==0.0.2
-eventlet==0.21.0
+eventlet==0.31.0
 gevent==1.2.2
 greenlet==0.4.12
 gunicorn==19.7.1
