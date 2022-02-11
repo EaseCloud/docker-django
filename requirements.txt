@@ -78,7 +78,7 @@ six==1.10.0
 snowballstemmer==1.2.1
 Sphinx==1.6.3
 sphinxcontrib-websupport==1.0.1
-Twisted==17.5.0
+Twisted==22.1.0
 Unidecode==0.4.21
 uritemplate==3.0.0
 urllib3==1.22
