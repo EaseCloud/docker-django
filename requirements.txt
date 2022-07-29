@@ -69,7 +69,7 @@ PyYAML==3.12
 queuelib==1.4.2
 redis==2.10.5
 requests==2.18.3
-Scrapy==1.4.0
+Scrapy==2.6.2
 scrapy-djangoitem==1.1.1
 service-identity==17.0.0
 shellescape==3.4.1
